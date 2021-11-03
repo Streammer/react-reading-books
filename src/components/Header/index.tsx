@@ -1,8 +1,8 @@
 import React, { FC } from 'react'
 import Container from '../Container'
-import styles from './style.module.scss'
-
 import mainLogo from '../../assets/reading-book-logo.png'
+import Search from '../Search'
+import styles from './style.module.scss'
 
 const Header: FC = () => {
 	return (
@@ -10,7 +10,7 @@ const Header: FC = () => {
 			<Container>
 				<div className={styles.wrapper}>
 					<img src={mainLogo} alt="Main logo image" className={styles.logoImage} />
-				
+					<Search />
 				</div>
 			</Container>
 		</header>
