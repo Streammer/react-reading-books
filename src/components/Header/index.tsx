@@ -1,13 +1,15 @@
-import React from 'react';
-import styles from './style.scss'
+import React, { FC } from 'react';
+import Container from '../Container';
+import styles from './style.module.scss'
 
-const Header = () => {
+const Header: FC = () => {
+	console.log(styles);
 	return (
-		<>
-			<div className={styles.container}>
+		<header>
+			<Container>
 				<h1>header</h1>
-			</div>
-		</>
+			</Container>
+		</header>
 	);
 };
 
