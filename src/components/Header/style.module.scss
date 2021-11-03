@@ -1,5 +1,10 @@
-.container {
-    max-width: 1800px;
-    display: flex;
-    justify-content: center;
+.wrapper {
+	padding: 10px;
+	display: flex;
+}
+.logoImage {
+	max-width: 30px;
+	&:hover {
+		cursor: pointer;
+	}
 }

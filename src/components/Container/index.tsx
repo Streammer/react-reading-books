@@ -11,4 +11,4 @@ const Container: FC = ({ children }) => {
     )
 };
 
-export default Container;
+export default Container
