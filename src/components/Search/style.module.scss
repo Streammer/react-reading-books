@@ -1,0 +1,9 @@
+.search {
+    outline: none;
+    border: 1px solid;
+    border-radius: 3px;
+    &.icon {
+        background-image: url('../../assets/icons/icon-search.svg');
+        background-repeat: no-repeat;
+    }
+}
