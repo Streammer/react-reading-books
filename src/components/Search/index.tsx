@@ -16,8 +16,8 @@ const Search: FC = () => {
         }
         
     }
-    const setValue = (e:React.SyntheticEvent<HTMLInputElement>)=> {
-        setSearchValue((e.target as HTMLInputElement).value)
+    const setValue = (e:React.FocusEvent<HTMLInputElement>)=> {
+        setSearchValue(e.target.value)
     }
     return (
         <>
