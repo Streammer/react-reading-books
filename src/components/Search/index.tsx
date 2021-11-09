@@ -4,8 +4,8 @@ import cx from 'classnames'
 import { useState } from 'react';
 
 const Search: FC = () => {
-    const [iconVisible, setIconVisible] = useState(true)
-    const [searchValue, setSearchValue] = useState('')
+    const [iconVisible, setIconVisible] = useState<boolean>(true)
+    const [searchValue, setSearchValue] = useState<string>('')
 
     const hideIcon = () => {
         setIconVisible(false)
@@ -16,8 +16,7 @@ const Search: FC = () => {
         }
         
     }
-    const setValue = (e:React.SyntheticEvent)=> {
-        console.log(e)
+    const setValue = (e:React.SyntheticEvent<HTMLInputElement>)=> {
         setSearchValue((e.target as HTMLInputElement).value)
     }
     return (
