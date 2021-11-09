@@ -1,0 +1,16 @@
+.header {
+	box-shadow: 0 3px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.logoImage {
+	max-width: 30px;
+	&:hover {
+		cursor: pointer;
+	}
+}
