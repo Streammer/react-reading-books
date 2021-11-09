@@ -8,6 +8,10 @@
     margin-bottom: 0px;
     box-shadow: 0 5px 5px 5px rgba($color: #000000, $alpha: .1);
     .footerNavigation {
+        display: flex;
+        justify-content: space-around;
+        max-width: 10%;
+        width: 100%;
         a {
             text-decoration: none;
             color: #000;
