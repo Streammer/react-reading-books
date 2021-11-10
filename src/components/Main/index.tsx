@@ -19,7 +19,6 @@ const Main = () => {
 		<>
 			<main>
 				<Container>
-					<h1>Main</h1>
 					{books.map((book) => (
 						<h2 key={book.image}>{book.capture}</h2>
 					))}
