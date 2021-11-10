@@ -1,0 +1,52 @@
+{
+    "books": [
+      {
+        "image": "188236_600.jpg",
+        "capture": "Капитанская дочка",
+        "authorName": "А.С. Пушкин",
+        "rating": 1
+      },
+      {
+        "image": "gogol-mertvye-dushi.jpg",
+        "capture": "Мертвые души",
+        "authorName": "Н.В. Гоголь",
+        "rating": 2
+      },
+      {
+        "image": "kypala_spadchina.jpg",
+        "capture": "Спадчына",
+        "authorName": "Янка Купала",
+        "rating": 3
+      },
+      {
+        "image": "Kyprin_sulamif.jpg",
+        "capture": "Суламифь",
+        "authorName": "А.И. Куприн",
+        "rating": 4
+      },
+      {
+        "image": "Lev_Tolstoj__Anna_Karenina.jpeg",
+        "capture": "Анна Каренина",
+        "authorName": "Л.H. Толстой",
+        "rating": 5
+      },
+      {
+        "image": "lolita.jpg",
+        "capture": "Лолита",
+        "authorName": "Владимир Набоков",
+        "rating": 1
+      },
+      {
+        "image": "Nekrasov_peasans_children.jpeg",
+        "capture": "Крестьянские дети",
+        "authorName": "Н.А. Некрасов",
+        "rating": 2
+      },
+      {
+        "image": "saltykov_story_city.jpg",
+        "capture": "История одного города",
+        "authorName": "М. Салтыков-Щедрин",
+        "rating": 3
+      }
+    ]
+  }
